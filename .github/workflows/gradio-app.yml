@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Deploy Gradio App
-        uses: gh:gradio/app
+        uses: gradio/app@master
         with:
           api_key: ${{ secrets.GRADIO_API_KEY }}
           share: true
